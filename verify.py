@@ -1,5 +1,5 @@
 import ctypes
-from f1_25_telemetry.packets import PacketSessionData, PacketHeader, PacketMotionData
+from f1GameTelemetry.packets import PacketSessionData, PacketHeader, PacketMotionData
 
 tests = [
     ("Session", PacketSessionData, 753),
